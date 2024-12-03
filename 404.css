@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Merriweather-Bold";  
+    src: url("../fonts/Merriweather/Merriweather-Bold.ttf"); 
+}
+@font-face {
+    font-family: "Roboto-Regular";  
+    src: url("../fonts/Roboto/Roboto-Regular.ttf"); 
+}
+@font-face {
+    font-family: "Roboto-Bold";  
+    src: url("../fonts/Roboto/Roboto-Bold.ttf"); 
+    }
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+.text__container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container__error{
+    font-family: "Merriweather-Bold";
+    font-weight: 700;
+    font-size: 60px;
+}
+.container__description{
+    font-family: "Roboto-Regular";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.button{
+    font-family: "Roboto-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
+  
+    color: #FFFFFF;
+
+    padding: 11px 31px;
+    border: none;
+    background: #A9845C;
+
+}
